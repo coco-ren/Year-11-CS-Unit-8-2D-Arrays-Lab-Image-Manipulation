@@ -11,6 +11,9 @@ public class ImageManipulation {
     public static void main(String[] args) {
         APImage myImage = new APImage("cyberpunk2077.jpg");
         myImage.draw();
+        grayScale("cyberpunk2077.jpg");
+        blackAndWhite("cyberpunk2077.jpg");
+        edgeDetection("cyberpunk2077.jpg", 50);
 
     }
 
